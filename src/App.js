@@ -3,6 +3,7 @@ import React from "react";
 
 import Header from "./components/Header/Header";
 import Grid from "./components/Grid/Grid";
+import CardDemo from "./components/Card/CardDemo";
 
 // Defining Functional Component Here.
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Grid />
+      <CardDemo />
       
     </div>
   );
